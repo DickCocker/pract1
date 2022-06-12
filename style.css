@@ -1,0 +1,22 @@
+section {
+	grid-template-rows: repeat(3, fit-content);
+}
+
+div#text {
+	grid-column: 5/9;
+	padding-block: 7vh;
+	text-align: center;
+}
+div#text h1 {
+	margin-block: 2vh;
+}
+
+div#work {
+	grid-column: 1/-1;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+}
+div#work #0, #2, #7, #8, #10{
+	background-color: #838383;
+}

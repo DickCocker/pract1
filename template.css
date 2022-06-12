@@ -1,0 +1,72 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url(src/Montserrat.ttf);
+}
+@font-face {
+		font-family: "NunitoSans";
+	src: url(src/NunitoSans-Regular.ttf);
+}
+
+@media (min-width: 900px) {
+	:root {
+		--font-size: 14px;
+		--logo-w: 31px;
+	}
+}
+@media (max-width: 900px) {
+	:root {
+		--font-size: 1.6vw;
+		--logo-w: calc(16px + 1.7vw );
+	}
+}
+
+:root {
+	--active-color: #10c9c3;
+}
+
+* {
+	margin: 0;
+	font-family: "Montserrat";
+}
+p {
+	font-family: "NunitoSans";
+	color: #858585;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.selected {
+	color: var(--active-color);
+}
+
+body {
+	background-color: #e9e9e9;
+}
+
+header {
+	height: 3.5vh;
+	padding-inline: 8vw;
+	padding-block: 2vh;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+}
+header #logo {
+	width: var(--logo-w);
+	height: auto;
+}
+header li {
+	display: inline;
+	margin-left: 2vw;
+	list-style: none;
+}
+header ul a {
+	font-size: var(--font-size);
+	font-weight: bolder;
+}
+section {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
