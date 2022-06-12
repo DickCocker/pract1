@@ -66,6 +66,39 @@ echo "
 function template_end () {
 	echo "
 		</section>
+		<footer>
+			<div id='credits'>
+			<h3> Piroll Design, Inc. </h3>
+			<p> &copy 2017 Piroll. All right reserved. <p>
+			<p> Designed by robirurk. </p>
+			</div>
+			<div id='contacts'>
+				<p> hello@pirolltheme.com </p>
+				<p> +44 987 065 908 </p>
+			</div>
+			<div id='links'>
+				<ul>
+					<li> <a href='#'> Projects </a> </li>
+					<li> <a href='#'> About </a> </li>
+					<li> <a href='#'> Services </a> </li>
+					<li> <a href='#'> Carrer </a> </li>
+				</ul>
+				<ul>
+				<li> <a href='#'> News </a> </li>
+				<li> <a href='#'> Events </a> </li>
+				<li> <a href='#'> Contact </a> </li>
+				<li> <a href='#'> Legals </a> </li>
+				</ul>
+			</div>
+			<div id='social_media'>
+				<ul>
+					<li> <a href='#'?> Facebook </a> </li>
+					<li> <a href='#'?> Twtter </a> </li>
+					<li> <a href='#'?> Instagram </a> </li>
+					<li> <a href='#'?> Dribbble </a> </li>
+				</ul>
+			</div>
+		</footer>
 		<script src='script.js'></script>
 	</body>
 </html>

@@ -17,6 +17,9 @@ div#work {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 }
-div#work #0, #2, #7, #8, #10{
-	background-color: #838383;
+div#work div, div#work div a {
+	display: flex;
+}
+div#work img {
+	width: 100%;
 }

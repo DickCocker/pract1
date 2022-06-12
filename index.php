@@ -13,7 +13,7 @@ echo "
 $works = array_slice(scandir(getcwd() . '/src/works/'), 2);
 foreach (range(0, 11) as $i) {
 	echo "
-	<div class='works' id='$i'>
+	<div class='works' id='work$i'>
 	";
 	echo "<img src='../src/works/$works[$i]' alt='$works[$i]'>";
 	echo "</div>";
