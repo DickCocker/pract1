@@ -12,7 +12,7 @@ $pages = [
 	'testimonials',
 	'contact'
 ];
-$href = $_SERVER['HTTP_X_FORWARDED_PROTO'] . '://' . $_SERVER['HTTP_HOST'];
+$href = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'];
 
 function template_start() {
 	global $href;
